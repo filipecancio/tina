@@ -7,5 +7,5 @@ Tina é um sistema utilizado para entrega de merendas em escolas. Devido a probl
 - coletar identificação do aluno via reconhecimento facial
 - verificar se o aluno está matriculado
 - verificar se o aluno está dentro do limite de repetição da refeição
-- caso esteja, entregar a comida e iterar i limite de refeição
+- caso esteja, entregar a comida e iterar o limite de refeição
 - caso não esteja, informar ao aluno que ele já atingiu o limite de sua refeição diária
