@@ -8,7 +8,7 @@
     {
         "name":"Cleber",
         "age":"19",
-        "grade":3,
+        "grade":2,
         "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/cleber_01.jpg"
     },
     {
@@ -20,13 +20,67 @@
     {
         "name":"Rita",
         "age":"18",
-        "grade":3,
+        "grade":2,
         "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/rita_01.jpg"
     },
     {
         "name":"Tadeu",
         "age":"18",
-        "grade":1,
+        "grade":2,
         "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/tadeu_01.jpg"
+    },
+    {
+        "name":"Eleven",
+        "age":"15",
+        "grade":1,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/eleven_01.jpg"
+    },
+    {
+        "name":"Mike",
+        "age":"15",
+        "grade":1,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/mike_01.jpg"
+    },
+    {
+        "name":"Will",
+        "age":"15",
+        "grade":1,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/will_01.jpg"
+    },
+    {
+        "name":"Dustin",
+        "age":"15",
+        "grade":1,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/dustin_01.jpg"
+    },
+    {
+        "name":"Lucas",
+        "age":"19",
+        "grade":3,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/lucas_01.jpg"
+    },
+    {
+        "name":"Max",
+        "age":"19",
+        "grade":3,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/max_01.jpg"
+    },
+    {
+        "name":"Nancy",
+        "age":"19",
+        "grade":3,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/nancy_01.jpg"
+    },
+    {
+        "name":"Steve",
+        "age":"19",
+        "grade":3,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/steve_01.jpg"
+    },
+    {
+        "name":"John",
+        "age":"19",
+        "grade":3,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/john_01.jpg"
     }
 ]
