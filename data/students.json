@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Artur",
+        "age":"18",
+        "grade":2,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/artur_01.jpg"
+    },
+    {
+        "name":"Cleber",
+        "age":"19",
+        "grade":3,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/cleber_01.jpg"
+    },
+    {
+        "name":"Fafi",
+        "age":"17",
+        "grade":2,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/fafi_01.jpg"
+    },
+    {
+        "name":"Rita",
+        "age":"18",
+        "grade":3,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/rita_01.jpg"
+    },
+    {
+        "name":"Tadeu",
+        "age":"18",
+        "grade":1,
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/tadeu_01.jpg"
+    }
+]

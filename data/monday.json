@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "name":"Cleber",
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/cleber_02.jpg"
+    },
+    {
+        "id":2,
+        "name":"Fafi",
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/fafi_02.jpg"
+    },
+    {
+        "id":3,
+        "name":"Cleber",
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/cleber_03.jpg"
+    },
+    {
+        "id":4,
+        "name":"Artur",
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/artur_02.jpg"
+    },
+    {
+        "id":5,
+        "name":"Rita",
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/rita_02.jpg"
+    },
+    {
+        "id":6,
+        "name":"Tadeu",
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/tadeu_02.jpg"
+    },
+    {
+        "id":7,
+        "name":"Cleber",
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/cleber_04.jpg"
+    },
+    {
+        "id":8,
+        "name":"Tadeu",
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/tadeu_02.jpg"
+    },
+    {
+        "id":9,
+        "name":"Rita",
+        "photo":"/home/cancio/Área de Trabalho/projetos/github/tina/data/photos/alunos/rita_02.jpg"
+    }
+]
