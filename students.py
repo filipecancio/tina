@@ -1,6 +1,19 @@
 # -*- coding: utf-8 -*-
+import random
+from typing import Match
 from recognition import comparePhotos
-from files import getDirectory, getStudents
+from files import getDirectory, getPhotos, getStudents
+
+def getStudentInstances():
+    global photo_stack
+    global student_stack
+    global verified_student_stack
+    global student_list
+
+    photo_stack = []
+    student_stack = []
+    verified_student_stack = []
+    student_list = getStudents()
 
 def getStudent(photo_unknown):
     found = False
@@ -34,34 +47,61 @@ def getStudent(photo_unknown):
     
     return response
 
-def getStudentStack(photo_stack):
-    stack = []
-    print(" Abrindo a cantina: verificando se nossos alunos estão devidamente matriculados e podem entrar na fila")
+def getPhoto(env):
+    global photo_stack
+    
+    while True:
+        print("Aluno, Por favor posicione o seu rosto corretamente na camera.")
+        photos = getPhotos()
+        photo = random.choice(photos)
+        print('Foto: ',photo, 'colocada para processamento.')
+        photo_stack.append(photo)
+        yield env.timeout(0.5)
 
-    for photo in photo_stack:
-        # Coletar Informação do aluno
-        print("Verificando aluno ...")
-        student = getStudent(photo)
+def getStudentStack(env):
+    global student_stack
+    global photo_stack
+    photos = getPhotos()
 
-        # Verificar se o aluno foi reconhecido
-        if(student["grade"] == 0):
-            print("Pessoa nao identificada, chamar segurança")
+    while True:
+        if(len(photo_stack)):
+            for photo in photo_stack[:]:
+                print("Processando foto ",env.now)
+                student = getStudent(photo)
+                student_stack.append(student)
+                photo_stack.remove(photo)
+                yield env.timeout(1)
+            print("Foto Processada.")
 
-        # Verifica se o aluno esta matriculado
-        elif(student["student"] == False):
-            print("Aluno não matriculado, não poderá comer na cantina ate fazer matricula. Favor comparecer à secretaria.")
-        
-        # Caso o aluno esteja matriculado, manter na fila
-        else:
-            print("Aluno identificado, pode entrar na fila.")
-            stack.append(student)
+def verifyStudent(env):
+    global student_stack
+    global verified_student_stack
 
-    print("Verificação concluída")
-    return stack
+    while True:
+        #verificar se o aluno está dentro do limite de repetição
+        if(len(student_stack)):
+            print("Identificando pessoa ",env.now)
+            for student in student_stack[:]:
+                # Verificar se o aluno foi reconhecido
+                if(student["grade"] == 0):
+                    print("Pessoa nao identificada, chamar segurança")
 
-def incrementStudentRound(students,student_name,menu):
+                # Verifica se o aluno esta matriculado
+                elif(student["student"] == False):
+                    print("Aluno não matriculado, não poderá comer na cantina ate fazer matricula. Favor comparecer à secretaria.")
+
+                # Caso o aluno esteja matriculado, manter na fila
+                else:
+                    print("Aluno identificado, pode entrar na fila.")
+                    verified_student_stack.append(student)
+                student_stack.remove(student)
+                yield env.timeout(5)
+
+def incrementStudentRound(student_name,menu):
+    global student_list
+
     #verificar se o aluno está dentro do limite de repetição
-    for student in students:
+    for student in student_list:
         #verificar se ainda ha lanche
         if(menu["quantity"]<=0):
             print('Acabou o ',menu["food"],'.')
@@ -76,3 +116,15 @@ def incrementStudentRound(students,student_name,menu):
             else:
                 #caso não esteja  informar que o aluno atingiu o limite
                 print(student["name"],' atingiu o limite de ',menu["food"],'. Nao pode pedir mais')
+
+def serveFood(env,menu):
+    global verified_student_stack
+    global student_list
+
+    while True:
+        #verificar se o aluno está dentro do limite de repetição
+        if(len(verified_student_stack)):
+            for student in verified_student_stack[:]:
+                incrementStudentRound(student["name"],menu)
+                verified_student_stack.remove(student)
+                yield env.timeout(5)
