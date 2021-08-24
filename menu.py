@@ -13,7 +13,6 @@ def getRandomMenu():
 
     print('Bom dia, aqui e a Tina!')
     print('Hoje o prato e', menu["food"])
-    print('apenas alunos do grau', menu["grade"], 'podem comer')
-    print('Temos', menu["quantity"], menu["food"], 'e cada aluno podera comer ate', menu["limit"], menu["food"],'s. Bon Appetit!')
+    print('Temos', menu["quantity"], menu["food"],'s e cada aluno podera comer ate', menu["limit"], menu["food"],'s. Bon Appetit!')
 
     return menu

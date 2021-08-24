@@ -1,28 +1,28 @@
 # -*- coding: utf-8 -*-
 from os import name
-from students import validateStudent
-from files import getStack
+from students import getStudentStack, incrementStudentRound
+from files import getStack, getStudents
 from menu import getRandomMenu
 import random
 
-
-
 if __name__ == "__main__":
-    stack = getStack()
-
     # Definir prato do dia e limite
-    # menu = getRandomMenu()
+    menu = getRandomMenu()
 
-    # Coletar Informação do aluno
-    stack_photo = random.choice(stack)
+    # Coletar identificação do aluno via reconhecimento facial
+    photo_stack = getStack()
+    student_stack = getStudentStack(photo_stack)
 
-    stack_student = validateStudent(stack_photo)
+    # Coletar lista de alunos
+    students_data = getStudents()
 
-    # Verificar se o aluno está matriculado
-    print("O aluno e:", stack_student)
+    # Entregar comida
+    for student in student_stack:
+        incrementStudentRound(students_data,student["name"],menu)
 
-    #verificar se o aluno está dentro do limite de repetição
-
-    #caso esteja, entregar comida
-
-    #caso não esteja  informar que o aluno atingiu o limite
+    #realizar relatório diario
+    print("cantina fechada")
+    if(menu["quantity"]>0):
+        print('Houve sobras de ',menu["quantity"],' ',menu["food"],'s')
+    else:
+        print('nao sobrou ',menu["food"])
