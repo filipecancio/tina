@@ -17,3 +17,12 @@ def loadGlobalFiles():
 
     students = getFile(students_file)
     monday = getFile(monday_file)
+
+def getStack():
+    monday = getFile(monday_file)
+    return monday
+
+def getStudents():
+    students = getFile(students_file)
+    return students
+
