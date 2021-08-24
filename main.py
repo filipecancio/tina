@@ -3,7 +3,6 @@ from os import name
 from students import getStudentStack, incrementStudentRound
 from files import getStack, getStudents
 from menu import getRandomMenu
-import random
 
 if __name__ == "__main__":
     # Definir prato do dia e limite

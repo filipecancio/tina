@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from recognition import comparePhotos
-from files import getStudents
+from files import getDirectory, getStudents
 
 def getStudent(photo_unknown):
     found = False
@@ -21,6 +21,7 @@ def getStudent(photo_unknown):
         total_match = 0
 
         for photo in photos:
+            photo = getDirectory(photo)
             match = comparePhotos(photo_unknown,photo)
             
             if match:

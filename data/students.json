@@ -4,9 +4,9 @@
         "age": "18",
         "grade": 2,
         "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/artur_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/artur_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/artur_03.jpg"
+            "/photos/artur_01.jpg",
+            "/photos/artur_02.jpg",
+            "/photos/artur_03.jpg"
         ],
         "round": 0,
         "student": false
@@ -16,45 +16,9 @@
         "age": "19",
         "grade": 2,
         "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/cleber_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/cleber_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/cleber_03.jpg"
-        ],
-        "round": 0,
-        "student": true
-    },
-    {
-        "name": "Fafi",
-        "age": "17",
-        "grade": 2,
-        "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/fafi_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/fafi_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/fafi_03.jpg"
-        ],
-        "round": 0,
-        "student": true
-    },
-    {
-        "name": "Rita",
-        "age": "18",
-        "grade": 2,
-        "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/rita_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/rita_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/rita_03.jpg"
-        ],
-        "round": 0,
-        "student": true
-    },
-    {
-        "name": "Tadeu",
-        "age": "18",
-        "grade": 2,
-        "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/tadeu_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/tadeu_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/tadeu_03.jpg"
+            "/photos/cleber_01.jpg",
+            "/photos/cleber_02.jpg",
+            "/photos/cleber_03.jpg"
         ],
         "round": 0,
         "student": true
@@ -64,45 +28,21 @@
         "age": "15",
         "grade": 1,
         "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/eleven_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/eleven_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/eleven_03.jpg"
+            "/photos/eleven_01.jpg",
+            "/photos/eleven_02.jpg",
+            "/photos/eleven_03.jpg"
         ],
         "round": 0,
-        "student": false
+        "student": true
     },
     {
         "name": "Mike",
         "age": "15",
         "grade": 1,
         "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/mike_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/mike_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/mike_03.jpg"
-        ],
-        "round": 0,
-        "student": true
-    },
-    {
-        "name": "Will",
-        "age": "15",
-        "grade": 1,
-        "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/will_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/will_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/will_03.jpg"
-        ],
-        "round": 0,
-        "student": true
-    },
-    {
-        "name": "Dustin",
-        "age": "15",
-        "grade": 1,
-        "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/dustin_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/dustin_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/dustin_03.jpg"
+            "/photos/mike_01.jpg",
+            "/photos/mike_02.jpg",
+            "/photos/mike_03.jpg"
         ],
         "round": 0,
         "student": true
@@ -112,9 +52,9 @@
         "age": "19",
         "grade": 3,
         "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/lucas_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/lucas_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/lucas_03.jpg"
+            "/photos/lucas_01.jpg",
+            "/photos/lucas_02.jpg",
+            "/photos/lucas_03.jpg"
         ],
         "round": 0,
         "student": false
@@ -124,45 +64,9 @@
         "age": "19",
         "grade": 3,
         "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/max_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/max_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/max_03.jpg"
-        ],
-        "round": 0,
-        "student": true
-    },
-    {
-        "name": "Nancy",
-        "age": "19",
-        "grade": 3,
-        "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/nancy_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/nancy_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/nancy_03.jpg"
-        ],
-        "round": 0,
-        "student": true
-    },
-    {
-        "name": "Steve",
-        "age": "19",
-        "grade": 3,
-        "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/steve_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/steve_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/steve_03.jpg"
-        ],
-        "round": 0,
-        "student": true
-    },
-    {
-        "name": "John",
-        "age": "19",
-        "grade": 3,
-        "photos": [
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/john_01.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/john_02.jpg",
-            "/home/cancio/Área de Trabalho/projetos/github/tina/photos/john_03.jpg"
+            "/photos/max_01.jpg",
+            "/photos/max_02.jpg",
+            "/photos/max_03.jpg"
         ],
         "round": 0,
         "student": true

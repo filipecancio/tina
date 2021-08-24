@@ -8,7 +8,7 @@ def getRandomMenu():
         "food": random.choice(food),
         "grade": random.randint(1,3),
         "limit": random.randint(1,3),
-        "quantity": random.randint(6,15)
+        "quantity": random.randint(3,7)
     }
 
     print('Bom dia, aqui e a Tina!')
