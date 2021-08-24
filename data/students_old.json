@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Artur",
+        "age": "18",
+        "grade": 2,
+        "photos": [
+            "/photos/artur_01.jpg",
+            "/photos/artur_02.jpg",
+            "/photos/artur_03.jpg"
+        ],
+        "round": 0,
+        "student": false
+    },
+    {
+        "name": "Cleber",
+        "age": "19",
+        "grade": 2,
+        "photos": [
+            "/photos/cleber_01.jpg",
+            "/photos/cleber_02.jpg",
+            "/photos/cleber_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Fafi",
+        "age": "17",
+        "grade": 2,
+        "photos": [
+            "/photos/fafi_01.jpg",
+            "/photos/fafi_02.jpg",
+            "/photos/fafi_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Rita",
+        "age": "18",
+        "grade": 2,
+        "photos": [
+            "/photos/rita_01.jpg",
+            "/photos/rita_02.jpg",
+            "/photos/rita_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Tadeu",
+        "age": "18",
+        "grade": 2,
+        "photos": [
+            "/photos/tadeu_01.jpg",
+            "/photos/tadeu_02.jpg",
+            "/photos/tadeu_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Eleven",
+        "age": "15",
+        "grade": 1,
+        "photos": [
+            "/photos/eleven_01.jpg",
+            "/photos/eleven_02.jpg",
+            "/photos/eleven_03.jpg"
+        ],
+        "round": 0,
+        "student": false
+    },
+    {
+        "name": "Mike",
+        "age": "15",
+        "grade": 1,
+        "photos": [
+            "/photos/mike_01.jpg",
+            "/photos/mike_02.jpg",
+            "/photos/mike_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Will",
+        "age": "15",
+        "grade": 1,
+        "photos": [
+            "/photos/will_01.jpg",
+            "/photos/will_02.jpg",
+            "/photos/will_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Dustin",
+        "age": "15",
+        "grade": 1,
+        "photos": [
+            "/photos/dustin_01.jpg",
+            "/photos/dustin_02.jpg",
+            "/photos/dustin_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Lucas",
+        "age": "19",
+        "grade": 3,
+        "photos": [
+            "/photos/lucas_01.jpg",
+            "/photos/lucas_02.jpg",
+            "/photos/lucas_03.jpg"
+        ],
+        "round": 0,
+        "student": false
+    },
+    {
+        "name": "Max",
+        "age": "19",
+        "grade": 3,
+        "photos": [
+            "/photos/max_01.jpg",
+            "/photos/max_02.jpg",
+            "/photos/max_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Nancy",
+        "age": "19",
+        "grade": 3,
+        "photos": [
+            "/photos/nancy_01.jpg",
+            "/photos/nancy_02.jpg",
+            "/photos/nancy_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Steve",
+        "age": "19",
+        "grade": 3,
+        "photos": [
+            "/photos/steve_01.jpg",
+            "/photos/steve_02.jpg",
+            "/photos/steve_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "John",
+        "age": "19",
+        "grade": 3,
+        "photos": [
+            "/photos/john_01.jpg",
+            "/photos/john_02.jpg",
+            "/photos/john_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Artur",
+        "age": "18",
+        "grade": 2,
+        "photos": [
+            "/photos/artur_01.jpg",
+            "/photos/artur_02.jpg",
+            "/photos/artur_03.jpg"
+        ],
+        "round": 0,
+        "student": false
+    },
+    {
+        "name": "Cleber",
+        "age": "19",
+        "grade": 2,
+        "photos": [
+            "/photos/cleber_01.jpg",
+            "/photos/cleber_02.jpg",
+            "/photos/cleber_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Eleven",
+        "age": "15",
+        "grade": 1,
+        "photos": [
+            "/photos/eleven_01.jpg",
+            "/photos/eleven_02.jpg",
+            "/photos/eleven_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Mike",
+        "age": "15",
+        "grade": 1,
+        "photos": [
+            "/photos/mike_01.jpg",
+            "/photos/mike_02.jpg",
+            "/photos/mike_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    },
+    {
+        "name": "Lucas",
+        "age": "19",
+        "grade": 3,
+        "photos": [
+            "/photos/lucas_01.jpg",
+            "/photos/lucas_02.jpg",
+            "/photos/lucas_03.jpg"
+        ],
+        "round": 0,
+        "student": false
+    },
+    {
+        "name": "Max",
+        "age": "19",
+        "grade": 3,
+        "photos": [
+            "/photos/max_01.jpg",
+            "/photos/max_02.jpg",
+            "/photos/max_03.jpg"
+        ],
+        "round": 0,
+        "student": true
+    }
+]
