@@ -1,5 +1,5 @@
 from behave import given, when, then
-from menu import *
+from menu import getRandomMenu
 
 @given("It gotta some food options")
 def given_gotta_food(context):
