@@ -11,20 +11,19 @@ def then_photos(context):
     context.photos = getPhotos()
     assert context.photos != None
 
-@then("It get the spected limit of students on the stack")
+@then("It get the spected a not null stack")
 def then_limit_stack(context):
     context.lenStack = len(context.stack)
-
     assert context.stack != None
-    assert context.lenStack > 2
-    assert context.lenStack < 7
 
-@then("It get the photos listed on the same stack lenght")
+@then("It get the spected more then 2 students on the stack")
 def then_limit_stack(context):
     context.lenStack = len(context.stack)
-
-    assert context.stack != None
     assert context.lenStack > 2
+
+@then("It get the spected less then 7 students on the stack")
+def then_limit_stack(context):
+    context.lenStack = len(context.stack)
     assert context.lenStack < 7
 
 @then("It returns a stack of students photos")
